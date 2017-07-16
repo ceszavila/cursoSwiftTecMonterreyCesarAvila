@@ -16,7 +16,7 @@ for aux in serieDeNumeros{
     if aux >= 30 && aux <= 40{ // EVALUANDO RANGO DEL 30 AL 40
         print(aux,"#Viva Swift")
     } else if (aux%5) == 0 {   // EVALUANDO SI EL NÚMERO ES DIVISIBLE ENTRE 5
-        print(aux, "Bingo!!!")
+        print(aux, "Bingo!!")
     } else if (aux%2) == 0 {   // EVALUANDO SI EL NÚMERO ES PAR
         print(aux,"Par")
     } else if (aux%2) != 0 {   // EVALUANDO SI EL NÚMERO ES IMPAR
